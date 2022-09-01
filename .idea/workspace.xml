@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="homework upload">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/Stage.java" afterDir="false" />
+    <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/Beatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/PlayerType1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/PlayerType2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw08_24/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw08_24/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw08_24/Stage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw08_24/Stage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -29,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DobOlKrMQJxKen6QJrGJejeuxU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -41,7 +47,8 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.Game">
@@ -88,7 +95,10 @@
       <updated>1661368365406</updated>
       <workItem from="1661368368159" duration="2854000" />
       <workItem from="1661694345324" duration="1262000" />
-      <workItem from="1661721081544" duration="5342000" />
+      <workItem from="1661721081544" duration="5825000" />
+      <workItem from="1661759478321" duration="2469000" />
+      <workItem from="1661766811930" duration="3611000" />
+      <workItem from="1662045917730" duration="5210000" />
     </task>
     <task id="LOCAL-00001" summary="homework upload">
       <created>1661370983181</created>
@@ -97,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661370983181</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework upload">
+      <created>1661727075438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661727075438</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,34 +123,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework upload" />
     <option name="LAST_COMMIT_MESSAGE" value="homework upload" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/hw08_24/Game.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/hw08_24/Game.java</url>
-          <line>45</line>
-          <properties class="org.hw08_24.Game" method="beat">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/hw08_24/Game.java</url>
-          <line>64</line>
-          <properties class="org.hw08_24.Game" method="addHit">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
