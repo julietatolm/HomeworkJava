@@ -7,12 +7,9 @@ public class SeaBattle {
         Player player1 = new Player();
         Player player2 = new Player();
 
-        System.out.println(player1.field.getFieldCells());
-        System.out.println(player1.field.getFieldCells()[0][0]);
-
         //test
         player1.field.showField();
-
+        player2.field.showField();
     }
 
 }
