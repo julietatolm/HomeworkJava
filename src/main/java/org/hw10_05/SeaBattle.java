@@ -10,6 +10,18 @@ public class SeaBattle {
         //test
         player1.field.showField();
         player2.field.showField();
+
+        fillPlayerField(player1.field);
+        fillPlayerField(player2.field);
+
+        startGame(player1, player2, player1.field, player2.field);
     }
+
+    private static void fillPlayerField(Field field) {
+    }
+
+    private static void startGame(Player player1, Player player2, Field field, Field field1) {
+    }
+
 
 }
