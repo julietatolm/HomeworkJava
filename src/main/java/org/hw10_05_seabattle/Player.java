@@ -1,4 +1,4 @@
-package org.hw10_05;
+package org.hw10_05_seabattle;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class Player {
     }
 
     public void setName() {
-        System.out.println("Please type the name of the Player " + Player.numOfPlayers);
+        System.out.println("Please input the name of the Player " + Player.numOfPlayers);
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
         System.out.println("Welcome to the game " + name);

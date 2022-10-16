@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw10_10/Pattern1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw10_12/Homework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05/SeaBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05/SeaBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05/Ships.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05/Ships.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05/CONSTANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/CONSTANT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05/SeaBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/SeaBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05/Ships.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Ships.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Homework">
-    <configuration name="Field" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hw10_05.Field" />
-      <module name="Homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hw10_05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hw08_24.Game" />
       <module name="Homework" />
@@ -104,11 +96,24 @@
       </method>
     </configuration>
     <configuration name="SeaBattle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hw10_05.SeaBattle" />
+      <option name="MAIN_CLASS_NAME" value="org.hw10_05_seabattle.SeaBattle" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw10_05.*" />
+          <option name="PATTERN" value="org.hw10_05_seabattle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hw10_05_seabattle.Test" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hw10_05_seabattle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,9 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Homework" />
-        <item itemvalue="Application.SeaBattle" />
-        <item itemvalue="Application.Field" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.Main" />
       </list>
@@ -146,7 +150,10 @@
       <workItem from="1665336819595" duration="6081000" />
       <workItem from="1665388992615" duration="436000" />
       <workItem from="1665526937754" duration="247000" />
-      <workItem from="1665528941204" duration="3091000" />
+      <workItem from="1665528941204" duration="3384000" />
+      <workItem from="1665561038719" duration="1508000" />
+      <workItem from="1665936275834" duration="1239000" />
+      <workItem from="1665940075159" duration="5970000" />
     </task>
     <task id="LOCAL-00001" summary="homework upload">
       <created>1661370983181</created>
@@ -190,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665342682181</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="homework upload">
+      <created>1665532113829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665532113830</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
