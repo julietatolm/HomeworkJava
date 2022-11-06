@@ -10,7 +10,7 @@ public class Homework {
 //    First level: 1. создать лист, наполнить его 10М> елементами
         List<Integer> list = new ArrayList<>();
         long time = System.currentTimeMillis();
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 1000000; i++) {
             list.add(i);
         }
         System.out.println("Time to fill: " + (System.currentTimeMillis() - time));
@@ -29,7 +29,7 @@ public class Homework {
 
         time = System.currentTimeMillis();
         for (int i = 0; i < list.size(); i++) {
-            int temp = i;
+            int temp = list.get(i);
         }
         System.out.println("Time for classic + list.size() in for loop: " + (System.currentTimeMillis() - time));
         System.out.println("----------------");
@@ -37,31 +37,31 @@ public class Homework {
         int size = list.size();
         time = System.currentTimeMillis();
         for (int i = 0; i < size; i++) {
-            int temp = i;
+            int temp = list.get(i);
         }
         System.out.println("Time for classic + list.size() in variable: " + (System.currentTimeMillis() - time));
         System.out.println("----------------");
 //    classic for, list.size() определяем в переменную, перебираем с конца (i--)
         time = System.currentTimeMillis();
-        for (int i = size; i >= 0; i--) {
-            int temp = i;
+        for (int i = list.size()-1; i >= 0; i--) {
+            int temp = list.get(i);
         }
         System.out.println("Time for classic + list.size() in variable + start from the end: " + (System.currentTimeMillis() - time));
         System.out.println("----------------");
 //    используя Itertor
-        Iterator itr = list.iterator();
+        Iterator<Integer> itr = list.iterator();
         time = System.currentTimeMillis();
         while(itr.hasNext()) {
-            int temp = (int) itr.next();
+            Integer temp = itr.next();
         }
         System.out.println("Time for iterator: " + (System.currentTimeMillis() - time));
         System.out.println("----------------");
 
 //    используя ListIterator
-        ListIterator listIterator = list.listIterator();
+        ListIterator<Integer> listIterator = list.listIterator();
         time = System.currentTimeMillis();
         while(listIterator.hasNext()) {
-            int temp = (int) listIterator.next();
+            Integer temp = listIterator.next();
         }
         System.out.println("Time for List iterator: " + (System.currentTimeMillis() - time));
         System.out.println("----------------");

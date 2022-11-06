@@ -17,11 +17,13 @@ public class Field {
     public void showField() {
         for(int i = 0; i < this.fieldCells.length; i++) {
             for (int j = 0; j < this.fieldCells[i].length; j++) {
-            System.out.print(this.fieldCells[i][j] + " ");
+            System.out.print(this.fieldCells[i][j] + " | ");
             }
             System.out.println();
         }
+        System.out.println("-----------------------------");
     }
+
 
     public static void fillPlayerField(Player player) {
         Scanner sc = new Scanner(System.in);
@@ -46,7 +48,7 @@ public class Field {
                     System.out.print("Input ship direction (1 for horizontal / 2 for vertical): ");
                     direction = sc.nextInt();
 
-                    result = Validator.validateCoordinate();
+                    result = Validator.validateCoordinate(player, ships, x, y, direction);
                 }
 
                 if (direction == 1) {
