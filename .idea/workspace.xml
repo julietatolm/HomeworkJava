@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_10_31/FindRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_02_deque/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_14/ArrayIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_14/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_05_seabattle/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw10_12/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw10_12/Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindRoute">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FindRoute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hw_10_31.FindRoute" />
       <module name="Homework" />
@@ -65,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hw08_24.Game" />
+    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hw10_10.Homework" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw08_24.*" />
+          <option name="PATTERN" value="org.hw10_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hw10_10.Homework" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hw_11_14.Main" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw10_10.*" />
+          <option name="PATTERN" value="org.hw_11_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.FindRoute" />
         <item itemvalue="Application.org.hw10_12.Homework" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Homework" />
-        <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +154,8 @@
       <workItem from="1666099577824" duration="441000" />
       <workItem from="1666129993006" duration="1446000" />
       <workItem from="1666164789761" duration="1346000" />
-      <workItem from="1667761053236" duration="3988000" />
+      <workItem from="1667761053236" duration="4212000" />
+      <workItem from="1668553775787" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="homework upload">
       <created>1661370983181</created>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665957499599</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="homework upload">
+      <created>1667765194722</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667765194722</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
