@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_02_deque/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_14/ArrayIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_14/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_27/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_27/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,26 +49,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.org.hw_11_27.Test">
     <configuration name="FindRoute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hw_10_31.FindRoute" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hw_10_31.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hw10_10.Homework" />
-      <module name="Homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hw10_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.hw_11_27.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hw_11_27.Test" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hw_11_27.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.hw_11_27.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FindRoute" />
         <item itemvalue="Application.org.hw10_12.Homework" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Homework" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +154,11 @@
       <workItem from="1666129993006" duration="1446000" />
       <workItem from="1666164789761" duration="1346000" />
       <workItem from="1667761053236" duration="4212000" />
-      <workItem from="1668553775787" duration="750000" />
+      <workItem from="1668553775787" duration="974000" />
+      <workItem from="1668591557762" duration="99000" />
+      <workItem from="1669585041467" duration="148000" />
+      <workItem from="1669587968586" duration="885000" />
+      <workItem from="1669590945579" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="homework upload">
       <created>1661370983181</created>
@@ -227,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667765194722</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="homework upload">
+      <created>1668554581985</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668554581985</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
