@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="homework upload">
+    <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_11_27/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_27/Test2.java" afterDir="false" />
     </list>
@@ -159,7 +159,7 @@
       <workItem from="1669587968586" duration="885000" />
       <workItem from="1669590945579" duration="1867000" />
       <workItem from="1669681732933" duration="475000" />
-      <workItem from="1669754976576" duration="3885000" />
+      <workItem from="1669754976576" duration="5233000" />
     </task>
     <task id="LOCAL-00001" summary="homework upload">
       <created>1661370983181</created>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669681984937</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="homework upload">
+      <created>1669759121692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669759121693</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

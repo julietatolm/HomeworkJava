@@ -51,12 +51,9 @@ public class Test2 {
                             }
                             return o2.getValue() - o1.getValue();
                         })
+                        .peek(a -> System.out.println(a.getKey()))
                         .limit(10)
                         .collect(Collectors.toList());
-
-        res.forEach(System.out::println);
-
-
     }
 
 }
