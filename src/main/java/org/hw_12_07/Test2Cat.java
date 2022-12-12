@@ -11,14 +11,14 @@ import java.util.stream.Collectors;
 
 public class Test2Cat {
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Aaaaaa", 1, "Blue");
-        Cat cat2 = new Cat("Bbbbbb", 4, "Grey");
-        Cat cat3 = new Cat("Cccccc", 6, "Blue");
-        Cat cat4 = new Cat("Dddddd", 7, "Red");
-        Cat cat5 = new Cat("Eeeeee", 2, "Blue");
-        Cat cat6 = new Cat("Ffffff", 1, "Grey");
-        Cat cat7 = new Cat("Tttttt", 9, "Blue");
-        Cat cat8 = new Cat("Ttaaat", 1, "Black");
+        Cat cat1 = new Cat("Aaaaaa", 1, "Blue", true);
+        Cat cat2 = new Cat("Bbbbbb", 4, "Grey", false);
+        Cat cat3 = new Cat("Cccccc", 6, "Blue", true);
+        Cat cat4 = new Cat("Dddddd", 7, "Red", false);
+        Cat cat5 = new Cat("Eeeeee", 2, "Blue", true);
+        Cat cat6 = new Cat("Ffffff", 1, "Grey", false);
+        Cat cat7 = new Cat("Tttttt", 9, "Blue", true);
+        Cat cat8 = new Cat("Ttaaat", 1, "Black", false);
 
         List<Cat> list = new ArrayList<>();
         list.add(cat1);
@@ -34,7 +34,7 @@ public class Test2Cat {
 
         List<Cat> list1 =
                 list.stream()
-                        .filter(cat -> cat.getAge() > 2 && cat.getColour() == "Blue")
+                        .filter(cat -> cat.getAge() > 2 && cat.isHungry())
                         .collect(Collectors.toList());
 
         System.out.println(list1);
@@ -42,7 +42,7 @@ public class Test2Cat {
         //• вывести список черных кошек с именем, начинающимся на Т
         List<Cat> list2 =
                 list.stream()
-                        .filter(cat -> cat.getName().startsWith("T") && cat.getColour() == "Black")
+                        .filter(cat -> cat.getName().startsWith("T") && "Black".equals(cat.getColour()))
                         .collect(Collectors.toList());
 
         System.out.println(list2);
@@ -55,6 +55,7 @@ public class Test2Cat {
                         .collect(Collectors.toList());
 
         System.out.println(list3);
+
 
     }
 }
