@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="" />
+    <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_12_12/Cats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_12_12/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_12_07/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_12_07/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_12_07/Test2Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_12_07/Test2Cat.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +51,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test2Cat">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hw_11_14.Main" />
+  <component name="RunManager" selected="Application.TaskOne">
+    <configuration name="TaskOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hw_12_12.TaskOne" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_11_14.*" />
+          <option name="PATTERN" value="org.hw_12_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskOne" />
         <item itemvalue="Application.Test2Cat" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.org.hw_11_27.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +165,9 @@
       <workItem from="1669754976576" duration="8025000" />
       <workItem from="1669909952482" duration="573000" />
       <workItem from="1670799018596" duration="2523000" />
+      <workItem from="1670837346499" duration="954000" />
+      <workItem from="1670843034823" duration="1349000" />
+      <workItem from="1670955244566" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="homework upload">
       <created>1661370983181</created>
@@ -265,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670801551705</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="homework upload">
+      <created>1670838638845</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670838638850</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

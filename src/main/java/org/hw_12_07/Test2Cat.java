@@ -7,33 +7,35 @@ package org.hw_12_07;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class Test2Cat {
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Aaaaaa", 1, "Blue", true);
-        Cat cat2 = new Cat("Bbbbbb", 4, "Grey", false);
-        Cat cat3 = new Cat("Cccccc", 6, "Blue", true);
-        Cat cat4 = new Cat("Dddddd", 7, "Red", false);
-        Cat cat5 = new Cat("Eeeeee", 2, "Blue", true);
-        Cat cat6 = new Cat("Ffffff", 1, "Grey", false);
-        Cat cat7 = new Cat("Tttttt", 9, "Blue", true);
-        Cat cat8 = new Cat("Ttaaat", 1, "Black", false);
+        Cat cat1 = new Cat("Aaaaaa", 1, "Blue", true, "Owner One");
+        Cat cat2 = new Cat("Bbbbbb", 4, "Grey", false, "Owner One");
+        Cat cat3 = new Cat("Cccccc", 6, "Blue", true, "Owner One");
+        Cat cat4 = new Cat("Dddddd", 7, "Red", false, "Owner One");
+        Cat cat5 = new Cat("Eeeeee", 2, "Blue", true, "Owner One");
+        Cat cat6 = new Cat("Ffffff", 1, "Grey", false, "Owner One");
+        Cat cat7 = new Cat("Tttttt", 9, "Blue", true, "Owner One");
+        Cat cat8 = new Cat("Ttaaat", 1, "Black", false, "Owner One");
 
-        List<Cat> list = new ArrayList<>();
-        list.add(cat1);
-        list.add(cat2);
-        list.add(cat3);
-        list.add(cat4);
-        list.add(cat5);
-        list.add(cat6);
-        list.add(cat7);
-        list.add(cat8);
+        List<Cat> listCats = new ArrayList<>();
+        listCats.add(cat1);
+        listCats.add(cat2);
+        listCats.add(cat3);
+        listCats.add(cat4);
+        listCats.add(cat5);
+        listCats.add(cat6);
+        listCats.add(cat7);
+        listCats.add(cat8);
 
         //• вывести список голодных кошек старше 2 лет
 
         List<Cat> list1 =
-                list.stream()
+                listCats.stream()
                         .filter(cat -> cat.getAge() > 2 && cat.isHungry())
                         .collect(Collectors.toList());
 
@@ -41,7 +43,7 @@ public class Test2Cat {
 
         //• вывести список черных кошек с именем, начинающимся на Т
         List<Cat> list2 =
-                list.stream()
+                listCats.stream()
                         .filter(cat -> cat.getName().startsWith("T") && "Black".equals(cat.getColour()))
                         .collect(Collectors.toList());
 
@@ -49,12 +51,23 @@ public class Test2Cat {
 
         //•  вывести список имен кошек возраста 1 год
         List<String> list3 =
-                list.stream()
+                listCats.stream()
                         .filter(cat -> cat.getAge() == 1)
                         .map(cat -> cat.getName())
                         .collect(Collectors.toList());
 
         System.out.println(list3);
+
+        Map<String, Set<String>> setMap = listCats.stream().collect(Collectors.groupingBy(Cat::getColour,
+                Collectors.mapping(Cat::getName,
+                        Collectors.toSet())));
+
+        Map<String, Long> longMap = listCats.stream().collect(Collectors.groupingBy(Cat::getColour,
+                Collectors.counting()));
+
+
+        System.out.println(setMap);
+        System.out.println(longMap);
 
 
     }

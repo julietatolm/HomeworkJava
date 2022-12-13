@@ -17,4 +17,5 @@ public class Cat {
     private int age;
     private String colour;
     private boolean isHungry;
+    private String catOwner;
 }
