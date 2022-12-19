@@ -1,7 +1,5 @@
 package org.hw_11_28;
 
-import javafx.util.Pair;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -65,16 +63,16 @@ public class App {
                 Collectors.groupingBy(s -> s.getFamilyName(), Collectors.counting()
                 ));
         //How many users red the same book
-        Map<String, Long> res2 = students.stream().map(x ->
-
-                {
-                    List<Pair<String, String>> l = new ArrayList<>();
-                    x.getBooks().forEach(b -> l.add(new Pair<>(b, x.getId())));
-                    return l;
-                }
-
-        ).flatMap(c -> c.stream()).collect(
-                Collectors.groupingBy(x -> x.getKey(), Collectors.counting()));
+//        Map<String, Long> res2 = students.stream().map(x ->
+//
+//                {
+//                    List<Pair<String, String>> l = new ArrayList<>();
+//                    x.getBooks().forEach(b -> l.add(new Pair<>(b, x.getId())));
+//                    return l;
+//                }
+//
+//        ).flatMap(c -> c.stream()).collect(
+//                Collectors.groupingBy(x -> x.getKey(), Collectors.counting()));
 
 
     }

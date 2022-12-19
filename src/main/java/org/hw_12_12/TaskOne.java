@@ -15,10 +15,7 @@ package org.hw_12_12;
 
 import org.hw_12_07.Cat;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.joining;
@@ -29,9 +26,9 @@ public class TaskOne {
         List<String> stringList = Arrays.asList("Specific", "Measurable", "Achievable", "Relevant", "Time-bound");
 
 //       1. С помощью стримов вывести его аббревиатуру в виде S.M.A.R.T.
-        stringList.stream().map(str -> str.charAt(0)).forEach(s -> System.out.print(s + "."));
+        String str = stringList.stream().map(s -> s.charAt(0) + ".").reduce((s1, s2) -> s1 + s2).get();
 
-        System.out.println();
+        System.out.println(str);
 //        2) В класс Cat добавить поле String catOwner
         List<Cat> catsList = getListOfCats();
 
@@ -62,8 +59,8 @@ public class TaskOne {
     }
 
     private static String mergeChars(char[] arr) {
-        StringBuilder stringBuilder = new StringBuilder(String.valueOf(arr));
-        stringBuilder.replace(stringBuilder.indexOf("?"), stringBuilder.indexOf("?")+1,"n");
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(arr).replace(stringBuilder.indexOf("?"), stringBuilder.indexOf("?")+1,"n");
         return stringBuilder.toString();
     }
 
