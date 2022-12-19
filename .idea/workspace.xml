@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_12_19_junit/BankAccountNumberValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_12_19_junit/RandomizedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/hw_12_19_junit/RandomizedQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/hw_12_19_junit/TestBankAccountNumberValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_11_28/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_11_28/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_12_12/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_12_12/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hw_12_19_junit/RandomizedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hw_12_19_junit/RandomizedQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +63,21 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RandomizedQueueTest.iteratorWorks">
+    <configuration name="RandomizedQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hw_12_19_junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hw_12_19_junit" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_12_19_junit.RandomizedQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomizedQueueTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework" />
       <extension name="coverage">
@@ -97,22 +105,6 @@
       <option name="PACKAGE_NAME" value="org.hw_12_19_junit" />
       <option name="MAIN_CLASS_NAME" value="org.hw_12_19_junit.RandomizedQueueTest" />
       <option name="METHOD_NAME" value="dequeueRemovesElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomizedQueueTest.enqueueAddsNewElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hw_12_19_junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hw_12_19_junit" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_12_19_junit.RandomizedQueueTest" />
-      <option name="METHOD_NAME" value="enqueueAddsNewElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,10 +145,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RandomizedQueueTest.iteratorWorks" />
+        <item itemvalue="JUnit.RandomizedQueueTest" />
         <item itemvalue="JUnit.RandomizedQueueTest.iterator" />
         <item itemvalue="JUnit.RandomizedQueueTest.dequeueRemovesElement" />
         <item itemvalue="JUnit.RandomizedQueueTest.dequeue" />
-        <item itemvalue="JUnit.RandomizedQueueTest.enqueueAddsNewElement" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +194,7 @@
       <workItem from="1670843034823" duration="1349000" />
       <workItem from="1670955244566" duration="4435000" />
       <workItem from="1671007234126" duration="1906000" />
-      <workItem from="1671411361164" duration="5985000" />
+      <workItem from="1671411361164" duration="6962000" />
     </task>
     <task id="LOCAL-00001" summary="homework upload">
       <created>1661370983181</created>
@@ -323,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670964492709</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="homework upload 19 dec">
+      <created>1671417687804</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671417687807</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +330,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework upload" />
+    <MESSAGE value="homework upload 19 dec" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework upload 19 dec" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

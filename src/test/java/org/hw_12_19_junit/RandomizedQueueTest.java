@@ -4,6 +4,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.util.NoSuchElementException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class RandomizedQueueTest {
@@ -84,7 +86,15 @@ class RandomizedQueueTest {
     @Test
     void iteratorWorks() {
         assertFalse(randomizedEmptyQueue.iterator().hasNext());
+        assertThrows(NoSuchElementException.class, () -> randomizedEmptyQueue.iterator().next());
+        randomizedEmptyQueue.enqueue("ONE");
+        assertTrue(randomizedEmptyQueue.iterator().hasNext());
+        assertEquals("ONE", randomizedEmptyQueue.iterator().next());
+
+//        assertFalse(randomizedEmptyQueue.iterator().hasNext());
+//        assertThrows(NoSuchElementException.class, () -> randomizedEmptyQueue.iterator().next());
+
         assertTrue(randomizedQueue.iterator().hasNext());
-        assertNotEquals(randomizedQueue.iterator().next(), randomizedQueue.iterator().next());
+//        assertNotEquals(randomizedQueue.iterator().next(), randomizedQueue.iterator().next());
     }
 }
