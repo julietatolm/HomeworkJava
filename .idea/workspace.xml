@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fdceb19-acf0-4b51-81eb-e1acadb45836" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_12_19_regexp/RegExpHW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/hw_12_19_junit/RandomizedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hw_12_19_junit/RandomizedQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,6 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last.edited.regexp": "AvFrku*wgc78!jfffff",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,12 +63,25 @@
       <recent name="org.hw_12_19_junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RandomizedQueueTest.iteratorWorks">
+  <component name="RunManager" selected="Application.RegExpHW">
+    <configuration name="RegExpHW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hw_12_19_regexp.RegExpHW" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hw_12_19_regexp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomizedQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_12_19_junit.*" />
+          <option name="PATTERN" value="org.hw_12_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,27 +92,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomizedQueueTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hw_12_19_junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hw_12_19_junit" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_12_19_junit.RandomizedQueueTest" />
-      <option name="METHOD_NAME" value="dequeue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RandomizedQueueTest.dequeueRemovesElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_12_19_junit.*" />
+          <option name="PATTERN" value="org.hw_12_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +112,7 @@
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_12_19_junit.*" />
+          <option name="PATTERN" value="org.hw_12_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,7 +128,7 @@
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_12_19_junit.*" />
+          <option name="PATTERN" value="org.hw_12_14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegExpHW" />
         <item itemvalue="JUnit.RandomizedQueueTest.iteratorWorks" />
         <item itemvalue="JUnit.RandomizedQueueTest" />
         <item itemvalue="JUnit.RandomizedQueueTest.iterator" />
         <item itemvalue="JUnit.RandomizedQueueTest.dequeueRemovesElement" />
-        <item itemvalue="JUnit.RandomizedQueueTest.dequeue" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +192,10 @@
       <workItem from="1670843034823" duration="1349000" />
       <workItem from="1670955244566" duration="4435000" />
       <workItem from="1671007234126" duration="1906000" />
-      <workItem from="1671411361164" duration="6962000" />
+      <workItem from="1671411361164" duration="7056000" />
+      <workItem from="1671439549200" duration="1004000" />
+      <workItem from="1673209707281" duration="448000" />
+      <workItem from="1673369342625" duration="5744000" />
     </task>
     <task id="LOCAL-00001" summary="homework upload">
       <created>1661370983181</created>
@@ -322,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671417687807</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="homework upload 19 dec">
+      <created>1671418570513</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671418570514</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
